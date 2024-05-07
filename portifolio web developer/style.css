@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'NetflixSans-Light';
+    src: url('/fontes/NetflixSans-Light.otf')
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'NetflixSans-Light', sans-serif;
+    background-color: rgb(18, 1, 18);
+}
+.nav-links {
+    font-size: 12px;
+    display: flex;
+    margin-right: 110px;
+    margin-top: 40px;
+    justify-content: flex-end;
+    list-style-type: none; 
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px; 
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.text1 {
+    margin-left: 90px;
+    line-height: 30px;
+    margin-top: 160px;
+    font-size: 25px;
+    color: white;
+}
+
+.text1 strong {
+    color: rgb(0, 190, 85);
+}
+
+.paragrafo {
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+    opacity: 100%;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.proj {
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 150px;
+    box-shadow:  5px 5px 40px black;
+    border-radius: 5px;
+    background-color: #181818;
+    color: white;
+}
+.conta {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 150px;
+    box-shadow: 5px 5px 40px black;
+    border-radius: 5px;
+    background-color: #00BE55;
+    color: white;
+}
+
+.oii {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 15px;
+}
+
+.name {
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    
+}
+
+.devel {
+    margin-top: 10px;
+    margin-left: 90px;
+    color: white;
+    font-size: 10px;
+}
+
+
+.texto {
+    color: white;
+    opacity: 60%;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.oiii {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+.front-end {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-color: white;
+    width: 800px;
+    height: 130px;
+    border-radius: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.174);
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 40px black;
+    transition: border-color 0.5s ease;
+}
+
+.front-end:hover {
+    border-color: #00BE55;
+}
+
+.imagem {
+   margin-top: 20px;
+   margin-left: 20px;
+   width: 40px;
+}
+
+.front {
+    margin-left: 90px;
+    margin-top: 50px;
+    border-color: white;
+    width: 800px;
+    height: 130px;
+    border-radius: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.174);
+    box-shadow: 5px 5px 40px black;;
+    box-sizing: border-box; 
+    transition: border-color 0.5s ease
+}
+
+.front:hover {
+    border-color: #00BE55;
+}
+.imagema {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+ }
+
+.para {
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.sub {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
+.parag {
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.suba {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
+.textofront {
+    color: white;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.textoUi {
+    color: white;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.kaka {
+    color: white;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.kakaka {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    margin-left: 70px;
+    opacity: 60%;
+}
+.subs {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
