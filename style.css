@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: 'NetflixSans-Light';
     src: url('/fontes/NetflixSans-Light.otf')
 }
@@ -209,4 +209,59 @@ body {
 .subs {
     text-decoration: none;
     border-bottom: 1px solid #00BE55;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        margin-right: 0;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .text1 {
+        margin-left: 20px;
+        margin-top: 100px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .paragrafo, .proj, .conta, .name, .devel, .texto, .kakaka {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .oii, .oiii {
+        margin-top: 150px;
+    }
+
+    .front-end, .front {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .imagema, .imagem {
+        margin-left: 10px;
+    }
+}
+
+/* Para telas entre 600px e 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .nav-links {
+        margin-right: 50px;
+    }
+}
+
+/* Para telas entre 900px e 1200px */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .nav-links {
+        margin-right: 80px;
+    }
+}
+
+/* Para telas maiores que 1200px */
+@media screen and (min-width: 1200px) {
+    .nav-links {
+        margin-right: 110px;
+    }
 }
