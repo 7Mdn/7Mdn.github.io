@@ -1,4 +1,4 @@
-    @font-face {
+@font-face {
     font-family: 'NetflixSans-Light';
     src: url('/fontes/NetflixSans-Light.otf')
 }
@@ -31,6 +31,11 @@ body {
     text-decoration: none;
     color: white;
     cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.links:hover {
+    color: rgb(164, 164, 164);
 }
 
 .text1 {
@@ -45,7 +50,7 @@ body {
     color: rgb(0, 190, 85);
 }
 
-.paragrafo {
+.paragraph {
     font-weight: bold;
     color: gray;
     font-size: 13px;
@@ -54,7 +59,7 @@ body {
     margin-top: 30px;
 }
 
-.proj {
+.projects {
     cursor: pointer;
     margin-left: 90px;
     margin-top: 10px;
@@ -65,7 +70,7 @@ body {
     background-color: #181818;
     color: white;
 }
-.conta {
+.account {
     cursor: pointer;
     margin-left: 10px;
     margin-top: 10px;
@@ -77,7 +82,7 @@ body {
     color: white;
 }
 
-.oii {
+.who {
     color: white;
     display: flex;
     justify-content: center;
@@ -92,15 +97,19 @@ body {
     
 }
 
-.devel {
+.developer {
     margin-top: 10px;
     margin-left: 90px;
     color: white;
     font-size: 10px;
 }
 
+.subtext {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
 
-.texto {
+.text {
     color: white;
     opacity: 60%;
     margin-left: 90px;
@@ -108,7 +117,7 @@ body {
     font-size: 13px;
 }
 
-.oiii {
+.know {
     color: white;
     display: flex;
     justify-content: center;
@@ -122,7 +131,7 @@ body {
     border-color: white;
     width: 800px;
     height: 130px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.174);
     box-sizing: border-box; 
     box-shadow: 5px 5px 40px black;
@@ -133,10 +142,36 @@ body {
     border-color: #00BE55;
 }
 
-.imagem {
+.image {
    margin-top: 20px;
    margin-left: 20px;
    width: 40px;
+}
+
+
+
+.paragraph2 {
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.subtext2 {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
+
+.textfront {
+    color: white;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.image2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
 }
 
 .front {
@@ -145,7 +180,7 @@ body {
     border-color: white;
     width: 800px;
     height: 130px;
-    border-radius: 1px;
+    border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.174);
     box-shadow: 5px 5px 40px black;;
     box-sizing: border-box; 
@@ -155,113 +190,34 @@ body {
 .front:hover {
     border-color: #00BE55;
 }
-.imagema {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 40px;
- }
 
-.para {
+.paragraph3 {
     color: white;
     font-size: 13px;
     margin-left: 20px;
 }
+.subtext3 {
+    text-decoration: none;
+    border-bottom: 1px solid #00BE55;
+}
 
-.sub {
-    text-decoration: none;
-    border-bottom: 1px solid #00BE55;
-}
-.parag {
-    color: white;
-    font-size: 13px;
-    margin-left: 20px;
-}
-.suba {
-    text-decoration: none;
-    border-bottom: 1px solid #00BE55;
-}
-.textofront {
-    color: white;
-    font-size: 11px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.textoUi {
+.textUi {
     color: white;
     font-size: 11px;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-.kaka {
+.footer {
     color: white;
     font-size: 11px;
     margin-left: 20px;
     margin-top: 20px;
 }
 
-.kakaka {
+.footer2 {
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
     margin-left: 70px;
     opacity: 60%;
-}
-.subs {
-    text-decoration: none;
-    border-bottom: 1px solid #00BE55;
-}
-
-@media screen and (max-width: 600px) {
-    .nav-links {
-        margin-right: 0;
-        margin-top: 20px;
-        justify-content: center;
-    }
-
-    .text1 {
-        margin-left: 20px;
-        margin-top: 100px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .paragrafo, .proj, .conta, .name, .devel, .texto, .kakaka {
-        margin-left: 20px;
-        text-align: center;
-    }
-
-    .oii, .oiii {
-        margin-top: 150px;
-    }
-
-    .front-end, .front {
-        width: calc(100% - 40px);
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-
-    .imagema, .imagem {
-        margin-left: 10px;
-    }
-}
-
-/* Para telas entre 600px e 900px */
-@media screen and (min-width: 600px) and (max-width: 900px) {
-    .nav-links {
-        margin-right: 50px;
-    }
-}
-
-/* Para telas entre 900px e 1200px */
-@media screen and (min-width: 900px) and (max-width: 1200px) {
-    .nav-links {
-        margin-right: 80px;
-    }
-}
-
-/* Para telas maiores que 1200px */
-@media screen and (min-width: 1200px) {
-    .nav-links {
-        margin-right: 110px;
-    }
 }
